@@ -8,38 +8,62 @@
     box-sizing: border-box;
 }
 
-.container{
+.container {
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #FFFFFF;
-    border: 1px solid #000000;
-    border-radius:25px;
-    width: 20em;
-    height: 20em;
+    border: 2px solid #000000;
+    border-radius: 25px;
+    width: 45vw;
+    height: 60vh;
 }
 
-.itens{
+.itens {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 1em;
-}   
+    width: 80%;
+    height: 80%;
+}
 
-.Campos{
+
+.Campo {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 8px;
     background-color: #FE367E;
     padding: 15px;
+    border: 2px solid #000000;
     border-radius: 25px;
+    width: 80%;
 }
 
-.botaoLogin{
+.Campo input {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: #000000;
+    font-size: 16px;
+    width: 100%;
+}
+
+.botaoLogin {
     background-color: #00C2FF;
     border-radius: 25px;
-    padding: 15px 30px 15px 30px ;
+    padding: 15px 30px 15px 30px;
+    width: 45%;
 }
 
-.imagemUsusario{
-    width: 50px;
+.imagemUsuario {
+    width: 30px;
+    height: auto;
+}
+
+.iconeSenha {
+    width: 30px;
     height: auto;
 }
