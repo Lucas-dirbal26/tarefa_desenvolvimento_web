@@ -1,5 +1,126 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    min-height: 100%;
+}
+
+body {
+    background-color: #FFBDBD;
+}
+
 .containerPrincipal {
+    display: grid;
+    grid-template-columns: 311px minmax(0, 906px);
+    gap: 70px;
+    min-height: 100vh;
+    width: 100%;
+    padding: 43px 100px 0 53px;
+    background-color: #FFBDBD;
+    align-items: start;
+}
+
+.caixaEsquerda {
+    width: 311px;
+    height: 1158px;
+    padding-top: 70px;
+    background-color: #FFFFFF;
+    border: 5px solid #000000;
+    border-radius: 58px;
+    box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.25);
+}
+
+.containerIcones {
     display: flex;
-    height: 100vh;
-    width: 100vw;
+    gap: 52px;
+    padding-left: 54px;
+}
+
+.containerIcones + .containerIcones {
+    margin-top: 48px;
+}
+
+.icone {
+    display: block;
+    flex: 0 0 70px;
+    width: 70px;
+    height: 70px;
+    background-color: #FFE600;
+    border: 5px solid #000000;
+    border-radius: 20px;
+    box-shadow: 4px 9px 5px rgba(0, 0, 0, 0.25);
+}
+
+.listaAzul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 48px;
+    margin-top: 48px;
+}
+
+.itensAzul {
+    flex: 0 0 auto;
+    width: 237px;
+    height: 94px;
+    background-color: #00C2FF;
+    border: 5px solid #000000;
+    border-radius: 20px;
+    box-shadow: 4px 9px 5px rgba(0, 0, 0, 0.25);
+}
+
+.caixaDireita {
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+    width: 906px;
+}
+
+.headerDireita {
+    display: flex;
+    flex: 0 0 113px;
+    align-items: flex-start;
+    justify-content: flex-end;
+    width: 100%;
+    height: 113px;
+    padding: 14px 36px 0 0;
+    background-color: #FFFFFF;
+    border: 5px solid #000000;
+    border-radius: 20px;
+    box-shadow: 4px 9px 5px rgba(0, 0, 0, 0.25);
+}
+
+.headerDireita .icone {
+    margin: 0;
+}
+
+.containerDireita {
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+    width: 100%;
+}
+
+.cartaoPrincipal {
+    display: grid;
+    grid-template-columns: 279px 525px;
+    gap: 31px;
+    width: 100%;
+    height: 342px;
+    padding: 24px 36px 0 25px;
+    background-color: #FFFFFF;
+    border: 5px solid #000000;
+    border-radius: 20px;
+    box-shadow: 4px 9px 5px rgba(0, 0, 0, 0.25);
+}
+
+.areaRosa {
+    width: 100%;
+    height: 263px;
+    background-color: #FE367E;
+    border: 5px solid #000000;
+    border-radius: 20px;
+    box-shadow: 4px 9px 5px rgba(0, 0, 0, 0.25);
 }
