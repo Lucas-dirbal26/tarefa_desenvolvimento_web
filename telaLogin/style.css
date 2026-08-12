@@ -51,11 +51,19 @@
     width: 100%;
 }
 
-.botaoLogin {
+.botaoLogin button {
     background-color: #00C2FF;
     border-radius: 25px;
+    border: 2px solid #000000;
     padding: 15px 30px 15px 30px;
-    width: 45%;
+    width: 15vw;
+    align-items: center;
+    cursor: pointer;
+}
+
+.escritaLogin{
+    color: #000000;
+    font-size: 1em;
 }
 
 .imagemUsuario {
